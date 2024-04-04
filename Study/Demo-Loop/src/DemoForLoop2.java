@@ -17,8 +17,8 @@ public class DemoForLoop2{
     // **
     // *
     int n = 5;
-    for(int i = 0; i < n ;i++ ){
-      for(int j = 0; j < n - i ;j++){
+    for(int i = 0; i < n ;i++ ){  //直行
+      for(int j = 0; j < n - i ;j++){  //橫行
       System.out.print("*");
       }
       System.out.println();
@@ -53,7 +53,7 @@ public class DemoForLoop2{
       System.out.println("hello"); //hello x4
     }
     //continue;
-    for (int i = 0; i < 10; i++){
+    for (int i = 0; i < 6; i++){
       System.out.println("abc");
       if (i > 3){
         continue;  // skip the rest, go to next iteration

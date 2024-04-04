@@ -21,7 +21,7 @@ public class DemoForLoop {
         // Step 10: i++ -> i become 3
         // Step 11: i < 3 ? no
         // Done: Exit program
-        for (int i = 0; i < 3; i++ ){
+        for (int i = 0; i < 3; i++ ){   //(<--0,1,2)
         // Never to re-assign value to i within the loop
             System.out.println("hello world" + i);
         }
@@ -85,11 +85,20 @@ public class DemoForLoop {
           for (int i =min;i <= max; i++ ){
             if ( i % 2 == 1){
                 q += q;
-            }
-            else {
+            } else {
                 q -= q;
             }
         }
         System.out.println("q=" + q);
+
+        String s4 = "abcd";
+
+        for (int i = 0; i < s.length(); i++){
+            
+        }
     }
 }
+  // Primitius basic
+  // cant --> tools
+  // eg "abc".charAt -> OK! -->String
+  // eg 1. -> not OK! -->Primitius basic
