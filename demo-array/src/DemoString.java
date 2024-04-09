@@ -40,7 +40,7 @@ public class DemoString {
     System.out.println(s.endsWith("lo")); //true
 
     // replace()
-    String after = s.replace("l","z"); //replace "l" by "z"
+    String after = s.replace("L","z"); //replace "l" by "z"
     System.out.println(after); //hezzo
 
     // trim() -> remove the space at the beginning and the tail of the string

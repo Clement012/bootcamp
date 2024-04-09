@@ -68,8 +68,7 @@ public class JavaQuest9 {
 
     // Method Chaining (one line to complete)
     // prints "V*NTUR*NIXLAB, JAVA!!!"
-    String after2 = str.replace("e","*");
-    System.out.println(after2.toUpperCase()+"!!!");
+    System.out.println(str.replaceAll("e", "*").toUpperCase().concat("!!!"));
 
   }
 }

@@ -22,7 +22,7 @@ public class JavaQuest4 {
     // 2. Divisible by 3
     // 3. > 0
     for (int i = 0; i < 100; i++) { // You cannot change this line
-      if (i % 3 == 0 && i <= 60 && i % 2 == 0 && i > 0)
+      if (i % (3*2) == 0 && i <= 60  && i > 0)
     
        System.out.println(i);
     }

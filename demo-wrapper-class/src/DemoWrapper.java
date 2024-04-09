@@ -79,5 +79,10 @@ public class DemoWrapper {
     int i5 = 12;
     Long l5 = (long) i5; // int -> long(upcast) -> long(autobox)X
     // (long) have to be added because cant have autobox in this case
+
+    //Float.valueOf()
+    Float f2 = Float.valueOf("1.0");
+    // f2.compareTo(...) ->0,-1,1
+    // f2.equals(...) ->true,false
    }
 }
