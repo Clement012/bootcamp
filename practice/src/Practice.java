@@ -1,3 +1,4 @@
+package practice.src;
 public class Practice {
   public static void main(String[] args) {
     // Question : Determine whether year n is a leap year.

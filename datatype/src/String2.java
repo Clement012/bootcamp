@@ -1,10 +1,6 @@
+package datatype.src;
 
-// Java : compile language: java file(eg.java)
-//-->compilation(javac)->class file (byte code - eg.class)
-//Runtime: byte code--> machine code
-
-//"String" is a keyword in Java.
-public class String1{
+public class String2 {
   public static void main(String[] args){
     char c2 = 's';
     String y = "hello world!"; //h   e   llo w  orld! combine
@@ -31,4 +27,5 @@ public class String1{
     // all string + primitius basic(eg int)=string+string ok
     // Xeg String j2 = 10 + 10; coz int+int cant convert to string
   }
+
 }

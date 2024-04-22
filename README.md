@@ -11,5 +11,12 @@
 - for loop 
 - Static method (input parameter, method signature, return type) 
 - array +(for loop,index)
-> 次一級
-- while loop
+
+## Week 3 
+- class & object -> stack & heap graphic
+- attributes/constructor/method -> getter/setter 
+- variable
+- pass by value / pass by reference
+-- public&private usage
+-- Big Decimal(double)/Math method
+-- String Builder

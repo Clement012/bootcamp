@@ -13,7 +13,7 @@ public class Square {
     return this.length*this.length; //Math.pow(this.length, 2)
   }
 
-  public String toString2(){
+  public String toString(){
     return "Square("
         + "length=" + this.length
         + ")";

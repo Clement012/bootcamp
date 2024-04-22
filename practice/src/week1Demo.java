@@ -1,3 +1,4 @@
+package practice.src;
 public class week1Demo {
   public static void main(String[] args){
   //If

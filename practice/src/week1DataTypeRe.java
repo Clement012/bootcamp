@@ -1,3 +1,4 @@
+package practice.src;
 public class week1DataTypeRe{
     public static void main(String[] args){
 // Primitius basics

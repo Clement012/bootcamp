@@ -1,12 +1,25 @@
 public class Dog {
 
-    //
+    // getter can be removed
 
     private String firstName;
 
     private String lastName;
 
     private int age;
+
+    // Empty Constructor
+    public Dog(){
+
+    };
+
+    // All argument Constructor
+    public Dog(String firstName, String lastName, int age){
+      this.firstName = firstName;
+      this.lastName = lastName;
+      this.age = age;
+    }
+    
 
     public void setFirstName(String firstName){
       this.firstName = firstName;
@@ -51,7 +64,11 @@ public class Dog {
 
     Square square = new Square();
     square.setLength(13);
-    System.out.println(square.toString2());  //"Square(length=13)"
+    System.out.println(square.toString());  //"Square(length=13)"
     System.out.println(square.area());  //169
+
+
+    Dog dog4 = new Dog("Ken", "Wong" , 13); // (firstName=Ken lastName=Wong, age=13)
+    System.out.println(dog4.toString());
   }
 }

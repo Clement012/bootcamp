@@ -1,3 +1,4 @@
+package practice.src;
 public class QuizW2 {
   public static void main(String[] args){
     String[] Strings = new String[3];

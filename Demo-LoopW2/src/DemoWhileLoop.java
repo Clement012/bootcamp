@@ -10,17 +10,17 @@ public class DemoWhileLoop {
 
       int[] arr = new int[]{2,3,10,-1};
       for (int i = 0; i < arr.length; i++){
-        System.out.print(arr[i]);
+        System.out.println(arr[i]);
       }
 
       // for-each
       // If you want to loop through all element from the beginning, you can use for-each
       for (int i : arr){
-        System.out.print(i);
+        System.out.println(i);
       }
       String[] strings = new String[]{"abc","def"};
       for (String str : strings){
-        System.out.print(str);
+        System.out.println(str);
       }
       // whileLoop (more flexable) (有條件,主要用ForLoop)
       // Step 1: count = 0

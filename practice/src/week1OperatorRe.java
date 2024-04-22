@@ -1,3 +1,4 @@
+package practice.src;
 public class week1OperatorRe {
   public static void main(String[] args){
   // Operatior 
