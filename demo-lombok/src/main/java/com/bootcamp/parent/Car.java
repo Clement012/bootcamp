@@ -1,4 +1,4 @@
-package com.bootcamp.demo2403.parent;
+package com.bootcamp.parent;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +9,7 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 @ToString(callSuper = true)
+
 public class Car extends BigCar{ // remind constructor cant 
   private String model;
 

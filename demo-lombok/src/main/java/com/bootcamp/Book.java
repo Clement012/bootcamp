@@ -1,4 +1,4 @@
-package com.bootcamp.demo2403;
+package com.bootcamp;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

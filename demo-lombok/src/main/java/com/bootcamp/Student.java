@@ -1,4 +1,4 @@
-package com.bootcamp.demo2403;
+package com.bootcamp;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,9 @@ import lombok.Setter;
 // Getter/Setter is a field/class annotation
 @AllArgsConstructor
 @RequiredArgsConstructor
-@NonNull
+
 public class Student {
+  @NonNull
   @Getter
   private String name;
   @Setter

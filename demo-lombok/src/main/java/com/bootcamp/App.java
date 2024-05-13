@@ -1,4 +1,4 @@
-package com.bootcamp.demo2403;  // similar to sub-folder, group ID
+package com.bootcamp;  // similar to sub-folder, group ID
 
 import java.util.ArrayList;
 import java.util.List;
