@@ -5,19 +5,6 @@ import java.util.List;
 
 // java.lang ....
 
-// create Java Project -> JDK (java.lang)
-// but you need to explicitly import java.util, etc.
-// CAN WRITE A CLASS UPDATE TO MAVEN-> GET A CLASS AS FUNCTION
-
-// Command "mvn compile" -> check dependency in pom.xml -> download dependency
-// Java project = JDK + junit + lombok
-// target folder -> generated main + test class files (similar to javac)
-
-// Command "mvn clean" -> clear target folder
-
-// Command "mvn clean compile" -> clear target folder, check dependency, compile class folder
-
-
 public class App {
 
     public static void main(String[] args) throws Exception {

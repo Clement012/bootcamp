@@ -1,14 +1,12 @@
 package com.bootcamp.demo2403;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 // Getter/Setter is a field/class annotation
-// @Data
 @AllArgsConstructor
 @RequiredArgsConstructor
 @NonNull
