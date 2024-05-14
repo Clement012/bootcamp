@@ -17,9 +17,9 @@
 - attributes/constructor/method -> getter/setter 
 - variable
 - pass by value / pass by reference
--- public&private usage
--- Big Decimal(double)/Math method
--- String Builder
+ - public&private usage
+ - Big Decimal(double)/Math method
+ - String Builder
 
 ## Week 4
 - APIE->OOP
@@ -29,9 +29,9 @@
 -> Encapsulation
 - spuer()
 - @Override
--- Enum
--- CharSequence
--- OOP definitiom
+ - Enum
+ - CharSequence
+ - OOP definitiom
 
 ## Week 5 
 - Collection->
@@ -41,9 +41,9 @@
 - exception
 -> checked exception
 -> unchecked exception
--- Big-O Notation
--- DSA Complexity
---- Recursion
+ - Big-O Notation
+ - DSA Complexity
+  - Recursion
 
 ## Week 6
 - Lambda
@@ -56,6 +56,6 @@
 -> Atomic 
 -> synchronized
 -> data structure
--- Type inference
--- records (java 16)
--- switch expression
+ - Type inference
+ - records (java 16)
+ - switch expression

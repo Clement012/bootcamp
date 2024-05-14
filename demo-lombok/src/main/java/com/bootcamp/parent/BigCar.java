@@ -1,4 +1,4 @@
-package com.bootcamp.demo2403.parent;
+package com.bootcamp.parent;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
