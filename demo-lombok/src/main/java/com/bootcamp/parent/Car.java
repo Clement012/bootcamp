@@ -12,7 +12,7 @@ import lombok.ToString;
 @ToString(callSuper = true)
 @EqualsAndHashCode(callSuper = true)
 
-public class Car extends BigCar{ // remind constructor cant 
+public class Car extends BigCar{ // remind constructor cant 繼承
   private String model;
 
   // AllArgsConstructor default in lombok
