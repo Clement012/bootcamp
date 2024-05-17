@@ -27,30 +27,31 @@
 -> Polymorphism
 -> Inheritance
 -> Encapsulation
-- spuer()
+-> spuer()
+- OOP definitiom
 - @Override
  - Enum
  - CharSequence
- - OOP definitiom
+ 
 
 ## Week 5 
 - Collection->
 - list & queue & set (spot the difference)  /map 
 ->
-- generics
 - exception
 -> checked exception
 -> unchecked exception
+ - generics
  - Big-O Notation
  - DSA Complexity
   - Recursion
 
 ## Week 6
-- Lambda
-- Stream 
+- Lambda(syntax)
+- Stream(syntax)
 -> Type Change
 - Optional
-- Nested Class
+- Nested Class(class inside class)
 - Builder Pattern/Factory Pattern
 - Thread
 -> Atomic 
@@ -59,3 +60,27 @@
  - Type inference
  - records (java 16)
  - switch expression
+
+ ## Week 7&8 (Database)
+ - MySQL 
+  - CTE/Subquery
+  - Join (innerjoin/leftjoin/rightjoin/fullouterjoin)(ifnull)
+  - groupby/orderby/having/where
+ - PostgreSQL (distinct on)
+
+ ## Week 9
+ - maven
+  - under Java 
+  - can insert eg(lombok/Junit/Mockito)
+ - lombok 
+  - reduce duplicate writin 
+   (hashcode/toString/Equals/getter/setter)
+   -> *super case
+ - Junit 
+  - Jupiter
+   (static import in assertions)
+ - mockito
+  - dependency injection
+  - isolation (sepreate in every test case)
+  - spy
+ - hamcrest 

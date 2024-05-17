@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotSame;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import java.util.List;
 import org.junit.jupiter.api.Test;
 
 public class StringCheckerTest {
@@ -25,5 +26,15 @@ public class StringCheckerTest {
     String s3 = "hello";  // Literal pool
     assertSame(s1,s3);
     assertEquals(s2,s3);
+    }
+    @Test 
+    void testConcat(){  //concat call in main
+     // List<String> strings = new ArrayList<>(List.of("abc","def","ghi"));
+     // String result = String.join("",strings);  
+     // assertEquals(("abcdefghi"),result);
+     assertEquals(new String("abcdefijk"),
+           StringChecker.concat(List.of("abc","def","ijk")));
+    
    }
+  
 }

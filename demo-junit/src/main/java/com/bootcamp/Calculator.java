@@ -4,13 +4,7 @@ import java.util.List;
 
 public class Calculator {
     
-    public static String concat( List<String> strings){
-     StringBuilder sb = new StringBuilder();
-      for (String s : strings){
-        sb.append(s);
-      }
-      return sb.toString();
-    }
+    
     public static int sum(int x,int y){
         return x + y;
     }

@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*; // static import //by hand
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import java.time.Duration;
 import java.util.List;
 
 // We can use static import to all static methods of the class
@@ -61,13 +62,12 @@ public class CalculatorTest{
 //    assertEquals(expected, Calculator.sum(x, y));
 //  }
 
-  @Test 
-  void testConcat(){  //concat call in main
-   // List<String> strings = new ArrayList<>(List.of("abc","def","ghi"));
-   // String result = String.join("",strings);  
-   // assertEquals(("abcdefghi"),result);
-   assertEquals(new String("abcdefijk"),
-         Calculator.concat(List.of("abc","def","ijk")));
+  @Test
+  void testTimeOut() {
+  // 500 ms -> 0.5sec
+   assertTimeout(Duration.ofMillis(100), () -> {
+    System.out.println("hello");
+   });
   }
 
  
