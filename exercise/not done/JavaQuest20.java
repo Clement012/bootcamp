@@ -19,5 +19,6 @@ public class JavaQuest20 {
 
   public static boolean rotateString(String s, String goal) {
     // code here ...
+    
   }
 }

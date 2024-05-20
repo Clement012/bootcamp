@@ -20,7 +20,7 @@ public class Demo2DArray {
     for (int i = 0; i < arr3.length; i++){
       for (int j = 0; j< arr3[i].length;j++){
         sum += arr3[i][j];
-        System.out.print(i + " " + j);  // 路線分析
+        System.out.print(i + " " + j);  
         System.out.print(j + " " + i);
       }
     }

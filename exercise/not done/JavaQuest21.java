@@ -17,7 +17,8 @@ public class JavaQuest21 {
 
   }
 
-  public boolean isThreeDivisors(int n) {
+  public static boolean isThreeDivisors(int n) {
     // code here ...
+   
   }
 }

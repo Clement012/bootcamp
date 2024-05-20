@@ -23,7 +23,7 @@ public class App {
     for (int i = 0; i < ls.size(); i++){   //for loop-> loop through all
       System.out.println(ls.get(i));  // usually not use like this 
     }  // Arraylist-> array: sort directly by get
-       // Linkedloist-> list: get: loop through all
+       // Linkedlist-> list: get: loop through all
 
        // for each
     for (String s : ls){ //next
