@@ -20,7 +20,7 @@ public class If {
   // Print out: The max number is 12.
 
     // Example 3
-//  String day = "Sunday"; 
+  String day = "Sunday"; 
 //  if (day.equals("Sunday")) {
  //     System.out.println(day + "is weekend");
 //  } else if (day.equals("Saturday")) {

@@ -8,7 +8,7 @@ public class Bank {
 
 	public Bank() {
 		// complete the function
-		accounts = new LinkedHashMap<>();
+		this.accounts = new LinkedHashMap<>();
 		}
 	
 
@@ -68,7 +68,7 @@ public class Bank {
 //		if (account != null){
 //		  account.debitAccount(amount);
  //     } return true;
-    return accounts.get(accountNumber).debitAccount(amount);
+    return this.accounts.get(accountNumber).debitAccount(amount);
   }
 	
 }

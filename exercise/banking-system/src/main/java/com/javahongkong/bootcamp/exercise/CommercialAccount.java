@@ -23,7 +23,7 @@ public class CommercialAccount extends Account{
 	 */
 	protected void addAuthorizedUser(Person person) {
 		// complete the function
-		authorizedUsers.add(person);
+		this.authorizedUsers.add(person);
 	}
 
 	/**
