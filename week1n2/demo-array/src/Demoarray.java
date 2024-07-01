@@ -17,7 +17,6 @@ public class DemoArray {
     System.out.println(arr[0]); // 100
     System.out.println(arr[1]); // 2
     System.out.println(arr[2]); // -20000
-
     // Create another int array to the original variable
     arr = new int[4];
     System.out.println(arr[0]); // 0
@@ -182,7 +181,7 @@ public class DemoArray {
     }
     System.out.println(Arrays.toString(indexes)); // [2, 4, 0, 0, 0]
 
-    //
+    //Calculation
     String[] balls = new String[] {"RED", "YELLOW", "BLACK", "YELLOW"};
     double[] prices = new double[] {5.5, 7.8, 10.0, 7.8};
     int[] quantities = new int[] {1, 3, 4, 5};

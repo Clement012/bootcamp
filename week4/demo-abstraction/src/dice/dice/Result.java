@@ -1,4 +1,4 @@
-package dice;
+
 
 public class Result {
 

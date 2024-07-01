@@ -1,4 +1,4 @@
-package stringBuilder;
+package lib.src.stringbuilder;
 
 public class DemoSB {
   public static void main(String[] args) {

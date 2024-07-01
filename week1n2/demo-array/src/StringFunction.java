@@ -3,27 +3,22 @@ public class StringFunction {
     String s = "hello";
     String s2 = "";
     String s3 = " ";
-
     String s4 = "   ";
 
     // isEmpty() vs isBlank()
     boolean isEmptyResult = s2.isEmpty(); // true
     System.out.println(isEmptyResult);
-
     System.out.println(s.isEmpty()); // false
     System.out.println(s3.isEmpty()); // false
-
     System.out.println(s.isBlank()); // false
     System.out.println(s2.isBlank()); // true
     System.out.println(s3.isBlank()); // true (different)
-
     System.out.println(s4.isBlank()); // true
     System.out.println(s4.isEmpty()); // false
 
     // substring()
     String result = s.substring(0, 3); // hel
-    System.out.println(result);
-
+    System.out.println(result); 
     result = s.substring(2);
     System.out.println(result); // llo
 
@@ -59,7 +54,7 @@ public class StringFunction {
     System.err.println(s.lastIndexOf("ll")); // 2
 
     System.out.println("hello".equals("Hello")); // false
-    System.out.println("hello".equalsIgnoreCase("Hello")); // true
+    System.out.println("hello".equalsIgnoreCase("Hello")); // true // ignoreCase 尸
     System.out.println("hello".equalsIgnoreCase("Hello ")); // false
 
   }

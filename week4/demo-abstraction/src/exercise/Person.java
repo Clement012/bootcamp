@@ -1,4 +1,3 @@
-package src.exercise;
 
 public class Person implements Exercise, Work {
 

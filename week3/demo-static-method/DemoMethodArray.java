@@ -32,7 +32,7 @@ public class DemoMethodArray {
     return x + y; // int + int -> int -> autobox
   }
 
-  public static String trimSpace(String s) { // pass by value (a copy of the original stirng object)
+  public static String trimSpace(String s) { // pass by value (a copy of the original string object)
     return s.replace(" ", "");
   }
 

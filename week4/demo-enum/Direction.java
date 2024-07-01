@@ -1,3 +1,5 @@
+
+ 
  // Finite number of values
 public enum Direction {  // class: run java program,[JWM] new 4 objects of Direction
   EAST(1, 'E'),

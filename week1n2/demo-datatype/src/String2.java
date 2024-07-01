@@ -15,7 +15,6 @@ public class String2 {
     System.out.println(lengthOfY);
     System.out.println(y.charAt(2));
     System.out.println(y.charAt(0));
-
     String s1 = "hello";
     String s2 = "hello";
     boolean isS1EqualsToS2 = s1.equals(s2);

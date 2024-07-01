@@ -1,4 +1,4 @@
-package dice;
+
 
 public enum Color {
   RED(1),

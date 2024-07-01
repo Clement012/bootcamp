@@ -23,7 +23,7 @@ public class Staff {
     this.name = name;
   }
   // Static method
-  public static Staff of (String name){
+  public static Staff of(String name){
     return new Staff(name);
   }
   public static Staff peter(){

@@ -1,6 +1,7 @@
-package customer; // subfolder
+
 
 import java.util.Arrays;
+import customer.Order;
 
 public class Customer {
   

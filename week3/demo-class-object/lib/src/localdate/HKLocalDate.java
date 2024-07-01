@@ -16,7 +16,7 @@ public class HKLocalDate {
     // this definition
     public HKLocalDate tomorrow(){
       this.date = this.date.plusDays(1);
-      return this;
+      return this.date;
     }
     public LocalDate tomorrow2(){
       this.date = this.date.plusDays(1);

@@ -50,6 +50,8 @@ public class DataType {
   long l1 = i1 + 1234; //int value -> long variable
   System.out.println(b3); 
   System.out.println(l1);
+  int i2 = (int) b3; // b3: long -> int
+  System.out.println(i2);
   // byte value remind
   // byte,short,int,long=8,16,32,64  in integer
   // byte=2^8 +127&-128

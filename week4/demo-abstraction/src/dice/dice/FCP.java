@@ -1,4 +1,4 @@
-package dice;
+
 
 public enum FCP {
   FISH(4),

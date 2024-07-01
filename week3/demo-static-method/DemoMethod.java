@@ -34,12 +34,20 @@ public class DemoMethod {
     double perimeter1 = calculate("Circle", "perimeter", 3.2d);
     double perimeter2 = calculate("Square", "perimeter", 3.2d);
 
+    System.out.println(area);  //32.169908772759484
+    System.out.println(area2);  //32.169908772759484
+    System.out.println(area3);  //10.240000000000002
+    System.out.println(area4);  //32.169908772759484
+    System.out.println(area5);  //10.240000000000002
+    System.out.println(perimeter1); // 20.106192982974676
+    System.out.println(perimeter2);  //12.8s
     // Adult
     int age = 18;
     if (age >= 18) {
 
     }
     boolean isAdult = isAdult(age);
+    System.out.println(isAdult(19));  //true
 
   }
 
@@ -58,7 +66,7 @@ public class DemoMethod {
     // int z = x - y;
     // return x - y; // int value - int value -> int value
     System.out.println(x + y);
-    return x + y;
+    return x - y;
   }
 
   // Method Definition: Method Name + Input Parameters (type & no. of parameter)
